@@ -1,0 +1,15 @@
+Ten Inodes FS (TIF)
+======
+
+INTRODUCTION
+--------
+This demo FUSE filesystem is just a easy start point to felling some basic VFS objects. This FS is designed for only limited number of files/inodes scenario, 10.
+
+hOW TO RUN
+--------
+After install libfuse librarys, run "./test.sh".
+
+TAKE IT AWAY
+--------
+Ops, mkdir/ls, on the mounted FS and check logs to watch VFS objects create/filling...
+This demo FUSE filesystem is in-memory only and some implementation differes from  VFS standars. Such as, dentry, dcache. You may change it for yourself.
